@@ -1,0 +1,48 @@
+1) root --admin
+2)iam 
+
+what is web service:
+**********************
+
+service: is a api call 
+cloud model: Public,private,Hybrid
+
+iaas
+paas
+saas
+faas
+caas
+dbas
+
+steps:
+********************
+
+   login as root user
+
+  choose your region
+  
+  select service as compute---ec2--enter name ---choose Redhat linux--- instancetype-
+  t2.micro[free tier eligible]---create keypair--enter name and here select pem --
+choose default networks--choose storage---click on launch instance--view alll instance-
+ wait couple of seconds--select the ec2 checkbox--connect---ssh cient tab--copy command
+
+
+  ssh -i "ds.pem" ec2-user@publicdns
+
+  go the directory where pem file is save[downloads-in my case]
+  
+  paste the  above command
+   enter yes
+
+
+
+
+
+
+
+
+
+
+
+
+
